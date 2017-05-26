@@ -26,7 +26,7 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Padding="10">
                 <Button Margin="10,0,10,0" Content="Type"/>
                 <Button Margin="10,0,10,0" Content="Settings"/>
-                <Button Margin="10,0,10,0" Content="SEND" FontWeight="Bold" />
+                <Button Margin="10,0,10,0" Content="SEND" FontWeight="Bold" Command="{Binding SendRequest}"/>
             </StackPanel>
             <!--Results-->
             <TextBlock />
